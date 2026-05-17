@@ -64,7 +64,7 @@ export const MOCK = {
 
 export async function fetchSheetRange(range) {
   const { sheetId, apiKey } = gs;
-  if (!sheetId || sheetId.includes("AQUI")) return null;
+  if (!sheetId || sheetId.includes(https://docs.google.com/spreadsheets/d/e/2PACX-1vQkfz14WrxZk-F-dYx5a0SsWc6f8kmVkxlrQAJ-0N1ZiFh0cZrWyR-IsghK-gak8g/pubhtml)) return null;
   try {
     const url  = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${encodeURIComponent(range)}?key=${apiKey}`;
     const res  = await fetch(url);
