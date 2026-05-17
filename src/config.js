@@ -8,8 +8,8 @@ const CONFIG = {
   // Após subir a planilha no Google Sheets, cole o ID da URL aqui.
   // URL exemplo: https://docs.google.com/spreadsheets/d/ ESTE_TRECHO /edit
   googleSheets: {
-    sheetId:  "SEU_GOOGLE_SHEET_ID_AQUI",
-    apiKey:   "SUA_GOOGLE_API_KEY_AQUI",      // somente leitura (dashboard)
+    sheetId:  https://docs.google.com/spreadsheets/d/e/2PACX-1vQkfz14WrxZk-F-dYx5a0SsWc6f8kmVkxlrQAJ-0N1ZiFh0cZrWyR-IsghK-gak8g/pubhtml,
+    apiKey:   AIzaSyA8ngpAZ9e-nO0UjW4WpMrDGGUHazjyK7I,      // somente leitura (dashboard)
     ranges: {
       estoque:  "Estoque!A3:P2000",
       pedidos:  "Pedidos!A3:L2000",
